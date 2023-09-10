@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cooperación intergrupal</title>
+    <script src="js/script.js"></script> 
+    <link rel="shortcut icon" href="https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico" type="image/x-icon">
+    <!-- Pase todo a un archivo script para mayor comodidad -->
+</head>
+
+<body>
+    <!-- Estructure de una forma más legible el html y agregue algunos elementos extras -->
+    <header>
+        <img src="img/logoJap.png" alt="Jovenes a Programar">
+    </header>
+
+    <main>
+        <section class="containerForm">
+            <div class="form">
+                <label for="nombre">Nombre:</label><input type="text" id="nombre">
+            </div>
+            <div class="form">
+                <label for="edad">Edad:</label><input type="number" id="edad">
+            </div>
+            <div class="form">
+                <label for="puntos">Puntos:</label><input type="number" id="puntos">
+            </div>
+            <div class="formBtn">
+                <button id="agregar"> Agregar a la lista</button> 
+                <button id="ordenar">Ordenar</button>
+                <button id="borrar">Borrar</button>
+            </div>
+        </section>
+        
+        <div id="lista"></div>
+    </main>
+</body>
+</html>
